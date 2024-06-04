@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>
+        <title>Carrinho de Compras</title>
+    </header>
+    <style>
+        .cart {
+            width: 400px;
+            border: 1px solid #14bac0;
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+        .cart-title {
+            color: #145ac2; 
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .cart-item {
+            border-bottom: 1px solid #145ac2;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cart-item img {
+            max-width: 150px;
+            max-height: 150px;
+            margin-right: 10px;
+            background-color: #14bac0;
+        }
+
+        .cart-total {
+            margin-top: 10px;
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="cart">
+        <h2 class="cart-title">Carrinho de Compras</h2>
+        <div class="cart-item">
+            <img src="camisa1.jpg" alt="Camiseta de Futebol">
+            <div>
+                <h4>Camiseta 1</h4>
+                <p>Quantidade: 1</p>
+                <p>Preço: R$ 120,00</p>
+            </div>
+        </div>
+        <div class="cart-item">
+            <img src="camisa2.jpg" alt="Camiseta de Futebol">
+            <div>
+                <h4>Camiseta 2</h4>
+                <p>Quantidade: 1</p>
+                <p>Preço: R$ 100,00</p>
+            </div>
+        </div>
+        <div class="cart-item">
+            <img src="  camisa3.jpg" alt="Camiseta de Futebol">
+            <div>
+                <h4>Camiseta 3</h4>
+                <p>Quantidade: 1</p>
+                <p>Preço: R$ 200,00</p>
+            </div>
+        </div>
+        <div class="cart-total">
+            Total: R$ 420,00
+        </div>
+    </div>
+</body>
+</html>

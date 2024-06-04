@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Status de Produção Atual</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .meta-atingida {
+            color: green;
+        }
+
+        .meta-não-atingida {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tabela de Status de Produção Atual</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade Produzida</th>
+                <th>Meta de Produção</th>
+                <th>% da Meta Atingida</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camiseta 1</td>
+                <td>300 unidades</td>
+                <td>400 unidades</td>
+                <td class="meta-atingida">75%</td>
+            </tr>
+            <tr>
+                <td>Camiseta 2</td>
+                <td>150 unidades</td>
+                <td>200 unidades</td>
+                <td class="meta-atingida">75%</td>
+            </tr>
+            <tr>
+                <td>Camiseta 3</td>
+                <td>80 unidades</td>
+                <td>100 unidades</td>
+                <td class="meta-não-atingida">80%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

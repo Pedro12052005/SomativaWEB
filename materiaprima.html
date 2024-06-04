@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Estoque de Matéria-Prima</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .suficiente {
+            color: green;
+        }
+
+        .baixo {
+            color: orange;
+        }
+
+        .critico {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tabela de Estoque de Matéria-Prima</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Material</th>
+                <th>Quantidade em Estoque</th>
+                <th>Quantidade Necessária</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fio de Algodão</td>
+                <td>1000 kg</td>
+                <td>500 kg</td>
+                <td class="suficiente">Suficiente</td>
+            </tr>
+            <tr>
+                <td>Tinta Preta</td>
+                <td>200 litros</td>
+                <td>300 litros</td>
+                <td class="baixo">Baixo</td>
+            </tr>
+            <tr>
+                <td>Embalagens</td>
+                <td>5000 unidades</td>
+                <td>2000 unidades</td>
+                <td class="suficiente">Suficiente</td>
+            </tr>
+            <tr>
+                <td>Tecido</td>
+                <td>800 metros</td>
+                <td>1000 metros</td>
+                <td class="critico">Crítico</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
